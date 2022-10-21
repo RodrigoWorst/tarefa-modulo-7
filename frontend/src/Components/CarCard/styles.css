@@ -1,0 +1,38 @@
+.car-card{
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+
+.card-top-container{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.card-top-container img{
+    width: 220px;
+    height: 165px;
+}
+
+.card-botton-container h1{
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 22px;
+}
+
+.card-botton-container p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #585858
+}
+
+.card-botton-container button{
+    width: 100%;
+}
+
+@media(min-width:576px){
+    .card-botton-container p{
+        font-size: 12px;
+    }
+}

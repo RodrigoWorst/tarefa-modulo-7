@@ -1,16 +1,9 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from './Pages/Home';
-import Navbar from './Components/Navbar';
+import Routes from './Routes';
 
 function App() {
-  return (
-      <>
-        <Navbar />
-        <Home />
-      </>
-      
-  );
+  return <Routes />;
 }
 
 export default App;
